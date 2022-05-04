@@ -1,0 +1,28 @@
+.app{
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    background: #2b011f;
+    color: white;
+}
+
+.app .sections{
+    height: 100vh;
+    width: 100%;
+}
+
+.sections::-webkit-scrollbar{
+    display: none;
+}
+
+.sections .homepageContainer{
+    height: calc(100vh - 100px);
+    width: 100%;
+    position: relative;
+}
+
+.app .homepageContainer{
+    height: 100vh;
+}
+
